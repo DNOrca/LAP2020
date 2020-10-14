@@ -8,7 +8,7 @@ positive number. */
 int main(int argc, char* argv[]) {
 	
 	if (argc != 2) {
-		printf("Usage: ./a.exe input\n\n");
+		printf("Usage_master: ./a.exe input\n\n");
 		exit(-1);
 	}
 	int input = atoi(argv[1]);
