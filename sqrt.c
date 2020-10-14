@@ -15,8 +15,7 @@ int main(int argc, char* argv[]) {
 
 	if ( input<0)
 	{
-		printf("Input should be greater than zero\n");
-		exit(-1);
+		 printf("Sqrt of %d is %fi\n",input,sqrt(-1*input));                                                         printf("Exiting the program\n");                                                                        return(0);
 	}
 
 	printf("Sqrt of %d is %f\n",input,sqrt(input));
